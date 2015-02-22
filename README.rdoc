@@ -1,4 +1,4 @@
-== README
+== TWI_COMMERCE
 
 This application was one of the winning entry at ABACUS 2015 at CEG Guindy.
 Twi-commerce by team semipros
