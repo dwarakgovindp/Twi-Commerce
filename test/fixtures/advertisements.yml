@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  twitter_handle: MyString
+  country: MyString
+  img: MyString
+  prod_img: MyString
+  spec: MyText
+  quoted_price: MyString
+  category: MyString
+  posted_at: 
+
+two:
+  twitter_handle: MyString
+  country: MyString
+  img: MyString
+  prod_img: MyString
+  spec: MyText
+  quoted_price: MyString
+  category: MyString
+  posted_at: 

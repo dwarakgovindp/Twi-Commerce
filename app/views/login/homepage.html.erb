@@ -1,0 +1,78 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<title>TwiCommerce</title>
+<style>
+@font-face{
+    font-family:"sansation";
+    src: url("Sansation-Regular.ttf") format(truetype);
+}
+div
+{
+    box-sizing: border-box;
+}
+body
+{
+    font-family:"sansation";
+    margin:0px auto;
+    width: 1000px;    
+}
+#wrapper
+{
+    margin:0px auto;
+    margin-top: 200px;
+    widows: 600px;
+}
+#left
+{
+    border-right: 1px solid #ffe35f;
+    width:49%;
+    display: inline-block;
+    vertical-align: middle;
+}
+#right
+{
+    width:50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#rightwrapper
+{
+    margin: 0px auto;
+    width: 50%;
+}
+
+input
+{
+    font-family: "sansation";
+    border-radius:5px;
+    background-color: white;
+    border:1px solid black;
+    padding: 10px;
+    width:250px;
+    -webkit-transition: all 0.4s;
+    outline: none;
+}
+input:hover
+{
+    
+    cursor:pointer;
+    border:1px solid #ffe35f;
+    background-color: #ffe35f;
+}
+</style>
+</head>
+<body>
+<div id="wrapper">
+<div id="left">
+<img src="twicommerceicon.png" />
+</div>
+<div id="right">
+<div id="rightwrapper">
+<%= button_to "Login with twitter", {:controller => "login", :action => "login_twitter"} %>
+</div>
+</div>
+</div>
+</body>
+</html>
